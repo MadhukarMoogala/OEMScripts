@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<WizardData xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1</Version>
+  <Acbmp />
+  <ProductName>ADN Tool</ProductName>
+  <ProgramName>Rep</ProgramName>
+  <CompanyName>FUN</CompanyName>
+  <ReleaseNumber>2.0</ReleaseNumber>
+  <RegistryNumber>27</RegistryNumber>
+  <DrawingNumber>2018</DrawingNumber>
+  <MainframeTitle>Repair Tool 2022 c</MainframeTitle>
+  <BldDefault>32769</BldDefault>
+  <BuildLocation>D:\oem\OEMMkBuilds\builds\</BuildLocation>
+  <OemCmdArray>
+  </OemCmdArray>
+  <YourArxCmdArray>
+  </YourArxCmdArray>
+  <YourModArray>
+  </YourModArray>
+  <UserDefDestArray>
+    <UserDefDestArrayVer>0</UserDefDestArrayVer>
+  </UserDefDestArray>
+  <SplashScrnAbtBoxArray/>
+    <SplashScrnAbtBoxVer>0</SplashScrnAbtBoxVer>
+  <StatBarToolBarArray/>
+  <AoemFeatArray>
+  </AoemFeatArray>
+  <FileExtArray>
+    <FileExtArrayVer>0</FileExtArrayVer>
+  </FileExtArray>
+  <ChgIconArray>
+  </ChgIconArray>
+  <GuidArray>
+  </GuidArray>
+  <ManagedSnKey/>
+</WizardData>
