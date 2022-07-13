@@ -1,7 +1,5 @@
 # How To Manage OEM Program - Install and Uninstall Quietly
 
-
-
 ## INSTALL
 
 This assumes that you are aware of building AutoCAD OEM from OEMMakeWizard and packaging a MSI through OEMInstallerWizard.
@@ -29,7 +27,15 @@ To install silently, the current `setup.exe` is not configured to silent install
 setup.exe --silent --pf 123 --sn 12345678
 ```
 
-To install to custom directory path, edit the setup.xnl and configure the path in `<DefaultInstallPath>%ProgramFiles%\FUN</DefaultInstallPath>`
+#### To install to custom directory path,
+
+Edit the `setup.xml` and configure the path in 
+
+```xml
+<DefaultInstallPath>%ProgramFiles%\FUN</DefaultInstallPath>
+```
+
+
 
 
 
@@ -52,8 +58,6 @@ Autodesk Interoperability Engine Manager                     MsiExec.exe /X{C4EF
 Autodesk Inventor Interoperability 2023                      MsiExec.exe /X{E2B54F9E-FF26-47AE-9AE1-D7AFBC32DE0C}
 Autodesk Material Library Base Resolution Image Library 2023 MsiExec.exe /X{3B564A94-BA47-4E42-ACD6-B5C35291210B}
 Autodesk Material Library 2023                               MsiExec.exe /X{8E133591-B0FD-4DB0-B60E-FB593CAF72B0}
-
-
 ```
 
  Notes:
@@ -109,7 +113,6 @@ MsiExec.exe /qn /X{C4EFAB73-D98A-3676-A3F8-142FC78E0EF3} /log %temp%\1.log
 MsiExec.exe /qn /X{E2B54F9E-FF26-47AE-9AE1-D7AFBC32DE0C} /log %temp%\2.log
 MsiExec.exe /qn /X{3B564A94-BA47-4E42-ACD6-B5C35291210B} /log %temp%\3.log
 MsiExec.exe /qn /X{8E133591-B0FD-4DB0-B60E-FB593CAF72B0} /log %temp%\4.log
-
 ```
 
 ### License
